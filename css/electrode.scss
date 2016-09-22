@@ -216,10 +216,6 @@ h1, h2, h3, h4, h5, h6 {
     height: 50%;
 
   }
-
-  .text-left {
-    text-align: right !important;
-  }
 }
 
 @media only screen and (max-width: 1019px){
@@ -961,18 +957,69 @@ p a code {
     color: white;
   }
 
+  .navbar-brand {
+    img {
+      width: 50%;
+      height: auto;
+    }
+  }
+
+  .twitter-logo {
+    background-color: #1686c0;
+    text-align: center;
+    border-radius: 0.5em;
+    margin-top: -10px !important;
+    width: 5%;
+    height: 60px;
+    img { 
+      float:right;
+      width: 25px; 
+    }
+  }
+
+  .github-logo {
+    background-color: white;
+    text-align: center;
+    border-radius: 0.5em;
+    margin-top: -10px !important;
+    width: 5%;
+    height:60px;
+
+    img { 
+      float:right;
+      width: 25px;
+    }
+  }
+
+  #electrode-header-left { 
+    width: 50%;
+  }
+
+  #electrode-header-right {
+    width: 50%;
+  }
   .nav {
     padding: 0px 10px 10px 10px;
 
     li {
       padding: 0px 15px 0px 15px;
-    }
+      margin-top: 0px;
 
-    .banners { 
-      padding: 2px;
+      a:hover {
+        font-weight: bold;
+        background-color: transparent;
+      }
+
+      a:focus {
+        background-color: transparent;
+      }
+
+      .active {
+        border-top: 3px solid white; 
+      }
     }
   }
-  
+
   .icon-bar {
     background: white;
   }
