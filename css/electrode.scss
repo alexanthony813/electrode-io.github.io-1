@@ -853,25 +853,49 @@ p a code {
 
 .electrode-core {
   text-align: center;
+  font-family: "Gotham-Rounded";
 
-  h3{
-    margin: 5px 100px 0px 100px;
+  div {
+    padding: 10px 0px 10px 0px;
   }
 
-  div{
-    margin-top: 50px;
-    text-align: left;
-    display: inline;
+  h4 {
+    padding: 0px 25% 0px 25%;
   }
 
   .electrode-core-text {
-    float: left;
+    text-align: left;
   }
 
-  .electrode-core-image {
-    text-align: right;
-    float: right;
-    width: 50%;
+
+
+  #snippet-bubble {
+    border: solid 1px gray;
+    left: 75px;
+    top: 0px;
+    width: 65%;
+    height: auto;
+    z-index: 2;
+
+    h3 {
+      text-align: center;
+      padding: 0px;
+    }
+
+    #deploy-msg {
+      text-align: left;
+    }
+
+    #details-btn {
+      color: #141e26;
+      background: white;
+      border: solid 2px #141e26;
+    }
+
+    #deploy-btn {
+      background: $primary;
+      color: white;
+    }
   }
 }
 
@@ -1035,10 +1059,29 @@ p a code {
   background: linear-gradient(#00203b, #032a4a);
 }
 
+#code-snippet {
+  background-color: #141e26;
+  color: white;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+
+  p {
+    padding-left: 5%;
+    font-size: 80%;
+  }
+}
+
 .grayscale{
   filter: grayscale(100%);
   width: 8%;
   height: auto;
   display: block;
   margin: auto;
+}
+
+.laptop-right {
+  background-image: url(https://host-logos.firebaseapp.com/dotio/core_laptop_graphic_@1x.png);
+  min-height: 33em;
+  background-size: 100% 100%;
 }
