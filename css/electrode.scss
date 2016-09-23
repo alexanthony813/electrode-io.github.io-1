@@ -859,23 +859,36 @@ p a code {
     padding: 10px 0px 10px 0px;
   }
 
-  h4 {
+  h3 {
     padding: 0px 25% 0px 25%;
   }
 
   .electrode-core-text {
     text-align: left;
+    padding: 15px 20px 15px 20px;
+    font-size: 120%;
   }
 
 
 
   #snippet-bubble {
-    border: solid 1px gray;
+    border: solid 1px #cccccc;
     left: 75px;
     top: 0px;
-    width: 65%;
+    width: 60%;
     height: auto;
     z-index: 2;
+    font-size: 80%;
+
+    .snippet-bubble-text {
+      padding: 10px 0px 10px 0px;
+      font-size: 120%;
+      text-align:left;
+    }
+
+    div {
+      padding: 0px;
+    }
 
     h3 {
       text-align: center;
@@ -1123,6 +1136,6 @@ p a code {
 
 .laptop-right {
   background-image: url(https://host-logos.firebaseapp.com/dotio/core_laptop_graphic_@1x.png);
-  min-height: 33em;
+  min-height: 40em;
   background-size: 100% 100%;
 }
