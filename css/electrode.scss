@@ -959,7 +959,7 @@ p a code {
 
     .icon-module {
       filter: grayscale(100%);
-      margin: 60px 0 0 20px;
+      margin: 20px 0 0 20px;
       width: 80px;
     }
 
@@ -982,6 +982,12 @@ p a code {
     img {
       width: 400px;
     }
+  }
+}
+
+@media(max-width: 1027px) {
+  .electrode-modules .electrode-modules-background{
+    background-image: none;
   }
 }
 
