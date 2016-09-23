@@ -5,76 +5,50 @@
 		<link rel="stylesheet" href="css/electrode.css">
 	</head>
 	<body>
-	  <!-- header -->
-	  <div class="container">
-	    <nav class="navbar navbar-dark bg-inverse">
-	       <div class="container-fluid">
-	         <div class="navbar-header">
-	           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-	             <span class="sr-only">Toggle navigation</span>
-	             <span class="icon-bar"></span>
-	             <span class="icon-bar"></span>
-	             <span class="icon-bar"></span>
-	           </button>
-	           <a class="navbar-brand" href="http://walmartlabs.com"><span class="logo-orange">@</span><span class="logo-blue">Walmart</span><span class="logo-orange">Labs</span></a>
-	         </div>
-
-	         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	           <ul class="nav navbar-nav navbar-right">
-	             <li><a style="margin-top:10px;" href="{{ site.baseurl }}/docs/what_is_electrode.html"{% if page.sectionid == 'docs' or page.sectionid == 'tips' or page.sectionid == 'contributing' %} class="active"{% endif %}>HOME</a></li>
-	             <li><a href="{{ site.baseurl }}/docs/what_is_electrode.html"{% if page.sectionid == 'docs' or page.sectionid == 'tips' or page.sectionid == 'contributing' %} {% endif %}>DOCS</a></li>
-	             <li><a href="{{ site.baseurl }}/docs/what_is_electrode.html"{% if page.sectionid == 'docs' or page.sectionid == 'tips' or page.sectionid == 'contributing' %} {% endif %}>CONTRIBUTE</a></li>
-	               <li><a href="https://github.com/electrode-io">A</a></li>
-	               <li><a href="https://github.com/electrode-io">B</a></li>
-	               <li><a href="https://github.com/electrode-io">C</a></li>
-	               <li role="separator" class="divider"></li>
-	           </ul>
-	         </div>
-	       </div>
-	   </nav>
-	  </div>
 
     <!-- footer -->
-	  <div class="container">
-	    <div id="electrode-footer" class="navbar navbar-default navbar-fixed-bottom footer">
-	    	<div class="container-fluid">
+		<div class="container">
+	    <div id="electrode-footer" class="navbar navbar-default navbar-fixed-bottom navbar-dark footer">
+					<div class="row footer-row">
+						<div class="footer-text col-xs-12 col-s-5 col-md-5 navbar">
+							<div class="" id="footer-nav-left">
+									<div>
+										<a class="navbar-brand" href="http://walmartlabs.com"><img id="footer-walmart-logo" src="https://host-logos.firebaseapp.com/dotio/header_logo_@1x.png" /></a>
+									</div>
+									<div>
+										<p class="footer-text">
+											Open Sourced Under Apache, Built with HEART by @WalmartLabs.</div>
+										</p>
+									<div>
+										<p class="footer-text bottom">
+											Electrode is maintained by the core team with help of our contributors.
+										</p>
+									</div>
+							</div>
+						</div>
 
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<ul class="footer-logo-area">
-							<li><a class="navbar-brand" href="http://walmartlabs.com"><img id=footer-walmart-logo" src="https://host-logos.firebaseapp.com/dotio/header_logo_@1x.png" /></a></li>
-							<li><p class="footer-text">Open Sourced Under Apache, Built with Heart by @WalmartLabs.com</p></li>
-							<li><p class="footer-text">Electrode is maintained by the core team with help of our contributors.</p></li>
-						</ul>
+					<div id="footer-nav-center" class="navbar footer-text col-xs-12 col-s-7 col-md-7">
+						<div class="row">
+							<div class="col-md-1 social-nav-links"><a href="https://github.com/electrode-io"><img id="footer-core-logo" class="footer-sub-logo" src="https://host-logos.firebaseapp.com/dotio/core_tab_icon_@1x.png" /></a></div>
+							<div class="col-md-1 social-nav-links"><a href="https://github.com/electrode-io"><img id="footer-icons-logo" class="footer-sub-logo" src="https://host-logos.firebaseapp.com/dotio/modules_tab_icon_@1x.png" /></a></div>
+							<div class="col-md-1 social-nav-links"><a href="https://github.com/electrode-io"><img id="footer-tools-logo" class="footer-sub-logo" src="https://host-logos.firebaseapp.com/dotio/tools_tab_icon_@1x.png" /></a></div>
+							<div class="col-md-1 footer-docs">
+								<a class="footer-doc-links" href="{{ site.baseurl }}/docs/what_is_electrode.html"{% if page.sectionid == 'docs' or page.sectionid == 'tips' or page.sectionid == 'contributing' %} {% endif %}>DOCS</a>
+							</div>
+							<div class="col-md-1 footer-docs">
+								<a id="doc-link-right" class="footer-doc-links" href="{{ site.baseurl }}/docs/what_is_electrode.html"{% if page.sectionid == 'docs' or page.sectionid == 'tips' or page.sectionid == 'contributing' %} {% endif %}>CONTRIBUTE</a>
+							</div>
+							<div class="col-md-offset-1 col-md-2">
+								<div class="footer-vertical-line"></div>
+							</div>
+							<div id="footer-twitter" class="col-md-1 twitter-logo"><a href="https://github.com/electrode-io"><img class="footer-social-logo" src="https://host-logos.firebaseapp.com/dotio/twitter_@1x.png" /></a></div>
+							<div class="col-md-1 github-logo"><a href="https://github.com/electrode-io"><img class="footer-social-logo" src="https://host-logos.firebaseapp.com/dotio/github_@1x.png" /></a></div>
+						</div>
 					</div>
 
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-center">
-							<li role="separator" class="divider"></li>
-							<li><a href="https://github.com/electrode-io">1</a></li>
-							<li><a href="https://github.com/electrode-io">2</a></li>
-							<li><a href="https://github.com/electrode-io">3</a></li>
-							<li role="separator" class="divider"></li>
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
-							<li role="separator" class="divider"></li>
-							<li><a href="{{ site.baseurl }}/docs/what_is_electrode.html"{% if page.sectionid == 'docs' or page.sectionid == 'tips' or page.sectionid == 'contributing' %} {% endif %}>DOCS</a></li>
-							<li><a href="{{ site.baseurl }}/docs/what_is_electrode.html"{% if page.sectionid == 'docs' or page.sectionid == 'tips' or page.sectionid == 'contributing' %} {% endif %}>CONTRIBUTE</a></li>
-							<li><a href="https://github.com/electrode-io">A</a></li>
-							<li><a href="https://github.com/electrode-io">B</a></li>
-							<li><a href="https://github.com/electrode-io">C</a></li>
-							<li role="separator" class="divider"></li>
-						</ul>
-					</div>
-
-	    	</div>
-	    </div>
-	  </div>
+				</div>
+    	</div>
+		</div>
 
 	</body>
 </html>
