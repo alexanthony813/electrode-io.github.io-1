@@ -1034,3 +1034,11 @@ p a code {
 #electrode-header {
   background: linear-gradient(#00203b, #032a4a);
 }
+
+.grayscale{
+  filter: grayscale(100%);
+  width: 8%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
