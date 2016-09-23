@@ -949,6 +949,7 @@ p a code {
 }
 
 .navbar {
+  font-family: "Gotham-Rounded";
   background: #00233F;
   border:none;
   margin-bottom: -20px;
@@ -966,26 +967,31 @@ p a code {
 
   .twitter-logo {
     background-color: #1686c0;
-    text-align: center;
     border-radius: 0.5em;
     margin-top: -10px !important;
-    width: 5%;
+    width: 3%;
     height: 60px;
+    float: right;
     img { 
+      margin-right: -5px;
+      margin-top: 12px;
       float:right;
       width: 25px; 
+      display: block;
     }
   }
 
   .github-logo {
     background-color: white;
-    text-align: center;
     border-radius: 0.5em;
     margin-top: -10px !important;
-    width: 5%;
+    width: 3%;
     height:60px;
+    float: right;
 
     img { 
+      margin-right: -5px;
+      margin-top: 9px;
       float:right;
       width: 25px;
     }
@@ -1002,7 +1008,7 @@ p a code {
     padding: 0px 10px 10px 10px;
 
     li {
-      padding: 0px 15px 0px 15px;
+      padding: 0px 30px 0px 15px;
       margin-top: 0px;
 
       a:hover {
@@ -1023,4 +1029,8 @@ p a code {
   .icon-bar {
     background: white;
   }
+}
+
+#electrode-header {
+  background: linear-gradient(#00203b, #032a4a);
 }
