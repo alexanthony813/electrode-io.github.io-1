@@ -484,6 +484,10 @@ h1 {
 #modules-section {
   padding: 20px 60px 80px 100px;
   border-bottom: 1px solid #cccccc;
+
+  #icon-modules-badge {
+    padding-right: 36px;
+  }
 }
 
 .electrode-modules, #modules-section {
