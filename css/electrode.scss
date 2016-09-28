@@ -41,6 +41,12 @@ h1 {
     height: 29px;
     width: 224px;
   }
+
+  li {
+    a:hover {
+      background-color: transparent;
+    }
+  }
 }
 .navbar {
   margin:0 !important;
