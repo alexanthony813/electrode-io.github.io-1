@@ -13,6 +13,7 @@ $large-devices: 1200px;
 $mobile-header-color-black: #333333;
 $mobile-pillar-b-background: #efefef;
 
+
 html {
   -webkit-font-smoothing: antialiased;
 }
@@ -1740,4 +1741,16 @@ img.footer-sub-logo {
 #mobile-header-info,
 .mobile-header-items {
   font-weight: bold;
+}
+
+/* ie 11 support */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+   .header-logo {
+     width: 1000% !important;
+     height: auto;
+   }
+
+   .electrode-brand-top {
+     margin-left: -3em !important;
+   }
 }
